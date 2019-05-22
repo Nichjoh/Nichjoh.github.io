@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nova+Script" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href='./CSS/main.css'> 
+    <link href="https://fonts.googleapis.com/css?family=Eczar&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--NAVBAR-->
@@ -23,14 +24,14 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#About">About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="https://codepen.io/nichjoh/pen/gJprNj">CSS Creature</a>
               <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
@@ -46,71 +47,86 @@
         </form>
       </div>
     </nav>
-    <section id="header"></section>
-    <!--JUMBOTRON-->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div>
+    <section id="header">
 
-    <section id="about"></section>
-
-      <section id="contact">
+      <!--JUMBOTRON-->
+      <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h2 class="text-center text-uppercase">Contact Me</h2>
-          <div class="row">
-            <form action="https://formspree.io/Najohnson1911@gmail.com" method="POST">
-              <div class="control-group">
-                <div class="formgroup">
-                  <label>Nic Johnson</label>
-                  <input
-                 type="text"
-                 class="form-control"
-                 placeholder="Your Name"
-                 id="name"
-                 required
-                 data-validation-required-message="Please enter your name"
-                 name="name"
-                 >
-               <p class="help-block text-danger"></p>
-             </div>
-           </div>
-           <div class="control-group">
-             <div class="form-group">
-               <label>Email Address</label>
-               <input
-                 type="email"
-                 class="form-control"
-                 placeholder="Your Email"
-                 id="email"
-                 required
-                 data-validation-required-message="Please enter your email"
-                 name="_replyto"
-               >
-               <p class="help-block text-danger"></p>
-             </div>
-           </div>
-           <div class="control-group">
-             <div class="form-group">
-               <textarea
-                 class="form-control"
-                 rows="7"
-                 placeholder="Your Message"
-                 id="message"
-                 required
-                 data-validation-required-message="Please leave a message"
-                 name="message"
-               ></textarea>
-               <p class="help-block text-danger"></p>
-             </div>
-           </div>
-           <div class="text-center">
-             <div id="success"></div>
-             <button type="submit" class="btn btn-lg btn-black">
-               <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-               Send Message
-             </button>
+          <h1 class="display-4">Nic Johnson</h1>
+          <p class="lead">Welcome to my Portfolio.</p>
+        </div>
+    </section>
+    <section id="About"></section>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+              <div class="col" id = "Aboutdiv">
+                <h1>ABOUT</h1>
+
+            <div class="row">
+              <div class="col">
+                I am an aspiring JavaScript Developer who is currently going through Eleven Fifty Academy. I have a Bachelor's degree of science and specialized in wildlife biology. With that I have worked with all types of animals, but primarily with wolves. I am a veteran with 8 years of military experience as well as a former crew leader for the Montana Conservation Corps.
+              </div>
+            </div>
+          </div>
+
+    </section>
+      <section id = "footer">
+        <section id="contact">
+          <div class="container">
+            <h2 class="text-left text-uppercase">Contact Me</h2>
+            <div class="row">
+              <form action="https://formspree.io/Najohnson1911@gmail.com" method="POST">
+                <div class="control-group">
+                  <div class="formgroup">
+                    <label>Your Name</label>
+                    <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    id="name"
+                    required
+                    data-validation-required-message="Please enter your name"
+                    name="name"
+                    >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Email Address</label>
+                    <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    id="email"
+                    required
+                    data-validation-required-message="Please enter your email"
+                    name="_replyto"
+                    >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <textarea
+                    class="form-control"
+                    rows="7"
+                    placeholder="Your Message"
+                    id="message"
+                    required
+                    data-validation-required-message="Please leave a message"
+                    name="message"
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div id="success"></div>
+                  <button type="submit" class="btn btn-lg btn-black">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    Send Message
+                  </button>
                 </div>
               </div>
             </form>
@@ -118,6 +134,7 @@
         </div>
       </section>
     </div>
+  </section>
     <!--SCRIPTS-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
