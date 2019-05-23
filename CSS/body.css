@@ -1,5 +1,8 @@
 body {
-    background: var(--violet);
+    background-image: url("/Projects/Portfolio/assets/wooden-geometry-1024x768.jpg");
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: var(--fontOne);
 }
 
